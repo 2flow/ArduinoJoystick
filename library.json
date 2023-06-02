@@ -1,0 +1,39 @@
+{
+    "name": "Joystick",
+    "keywords": "LED",
+    "description": "Joystick library for Arduino.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/2flow/esp32-arduino-prototyping-kit"
+    },
+    "authors": [
+        {
+            "name": "Florian Wimmer",
+            "email": "flo@wimmer.kiwi",
+            "maintainer": true
+        }
+    ],
+    "dependencies": [
+    ],
+    "exports": {
+        "include": [
+            "include/*.h",
+            "src/*.cpp"
+        ],
+        "exclude": [
+            ".travis.yml",
+            ".gitignore",
+            "lib/*",
+            "test/*",
+            ".vscode/*",
+            "include/README",
+            "src/README",
+            "README.md",
+            "src/main.cpp",
+            "*main.cpp"
+        ]
+    },
+    "version": "0.0.1",
+    "frameworks": "arduino",
+    "platforms": "*"
+}
